@@ -1,0 +1,22 @@
+.card{
+    flex:1;
+    border-radius: 13px;
+    margin-bottom: 37px;
+    padding:17px;
+    text-align: center;
+    box-shadow: 1px 1px 16px rgba(0,0,0,0.3);
+    background-color:white;
+    color: rgb(22, 22, 22);
+    transition:0.3s;  
+    display: flex;  
+}
+.card-img{
+    height:100%;
+    width:200px;
+}
+.card-content{
+    padding:17px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,19 @@
+.App{
+  text-align: center;
+  background-color: white;
+  margin-top:0;
+}
+.card-container{
+  width: 60%;
+  margin: auto;
+  padding-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+}
+.card-container h2{
+  margin-top:29px;
+  margin-bottom:17px;
+  margin-left:17px;
+  align-self: start;
+  color:rgb(58, 101, 231);
+}
