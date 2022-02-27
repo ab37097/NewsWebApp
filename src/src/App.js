@@ -12,7 +12,7 @@ function App() {
 
   const apicall = () => {
     axios
-    .get('https://newsapi.org/v2/top-headlines?country=in&apiKey=c616b3ddb19f4ebd923c3f3a7d354319')
+    .get('https://newsapi.org/v2/top-headlines?country=in&apiKey=APIKEY')
     .then(
       res=>{
         setdata(res.data.articles);
